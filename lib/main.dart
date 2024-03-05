@@ -14,6 +14,7 @@ import 'config/routes/routes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  print("object");
   await CacheServices.initialize;
   await ApiServices.initialize;
 
